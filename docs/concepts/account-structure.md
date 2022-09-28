@@ -9,7 +9,7 @@ When you are deciding how to set up Dynamic Content for your organisation, one o
 
 Depending on your requirements and how you share content between brands, you may choose to have more than one hub, or use one hub and multiple repositories to contain the content for each brand. On this page we'll explain the various options.
 
-For more information about the roles of different types of users and what the permissions they are granted, see the [personas](/docs/concepts/permissions) page.
+For more information about the roles of different types of users and what the permissions they are granted, see the [personas](/docs/concepts/) page.
 
 ## Hubs
 
@@ -74,8 +74,4 @@ A very simple example of this is shown below.
 
 ## Related pages
 
-[Personas](/docs/concepts/permissions)
-
-[Localization](/docs/user-guides/produce-content/localize)
-
-[Repository settings](/docs/user-guides/basics/dynamic-content/settings#repository-settings)
+[Personas](/docs/concepts/)

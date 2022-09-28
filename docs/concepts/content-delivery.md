@@ -54,7 +54,7 @@ Fetching by `deliveryKey`is useful when you need to find a content object associ
 
 ### Linked content
 
-Content objects can contain properties that [link](/docs/concepts/relationships) to other content objects.
+Content objects can contain properties tha to other content objects.
 
 These linked content objects can be automatically retrieved by the Content Delivery API, avoiding the need to make additional API requests. You can choose to retrieve just the root, the entire tree of linked content, or specify a maximum depth to retrieve.
 
@@ -71,7 +71,7 @@ Filter properties are designated properties inside your content type that you ca
 
 By default, you can filter by the content type property (`/_meta/schema`) to find every content object of a particular type.
 
-Additionally, you can define up to 5 custom filters per content type using the [filterable trait](/docs/schema-reference/traits#filterable-trait). Each filter can target one or multiple properties, allowing for compound "AND" matches.
+Additionally, you can define up to 5 custom filters per content type using the. Each filter can target one or multiple properties, allowing for compound "AND" matches.
 
 This capability is suitable for use cases where you need to retrieve a list of content objects filtered using simple criteria. Examples of this include:
 
@@ -105,7 +105,7 @@ This capability is suitable for use cases where you need to retrieve a list of c
 }
 ```
 
-Filtering follows NoSQL principles and as such, is not suitable for every use case. For more complex querying, using a [search index](/docs/integrations/search) is the optimal choice. If your use case requires the following, you should use search over filtering:
+Filtering follows NoSQL principles and as such, is not suitable for every use case. For more complex querying, using ais the optimal choice. If your use case requires the following, you should use search over filtering:
 
 - **Natural language search** - Allowing users to search using everyday language.
 - **Faceted search** - Allowing users to narrow results by applying multiple grouped filters.
@@ -116,7 +116,7 @@ Filtering follows NoSQL principles and as such, is not suitable for every use ca
 
 Sort properties are designated properties inside your content type that you can use to sort results when retrieving a list of content objects from the Content Delivery API.
 
-You can define up to 3 custom sorts per content type using the [sortable trait](/docs/schema-reference/traits#sortable-trait). Each sort requires a name and a list of properties to include in the sort. If multiple properties are defined in a custom sort, results will be sorted by each property in sequence.
+You can define up to 3 custom sorts per content type using the. Each sort requires a name and a list of properties to include in the sort. If multiple properties are defined in a custom sort, results will be sorted by each property in sequence.
 
 By default, results are sorted by created date. This can be overridden by creating a custom sort with the name "default".
 
